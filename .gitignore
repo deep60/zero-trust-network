@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Terraform (state files can contain secrets)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# local secrets / Python
+.env
+__pycache__/
